@@ -1,121 +1,121 @@
-export const productData = [
+export const images = [
 {
     id: 'wine-glass',
     name: 'wine-galss',
-    image: '../images/wine-glass.jpg'
+    image: 'images/wine-glass.jpg'
 },
 
 {
     id: 'water-can',
     name: 'water-can',
-    image: '../images/water-can.jpg'
+    image: 'images/water-can.jpg'
 },
 
 {
     id: 'usb',
     name: 'usb',
-    image: '../images/usb.gif'
+    image: 'images/usb.gif'
 },
 
 {
     id: 'unicorn',
     name: 'unicorn',
-    image: '../images/unicorn.jpg'
+    image: 'images/unicorn.jpg'
 },
 {
     id: 'tauntaun',
     name: 'tauntaun',
-    image: '../images/tauntaun.jpg'
+    image: 'images/tauntaun.jpg'
 },
 
 {
     id: 'sweep',
     name: 'sweep',
-    image: '../images/sweep.jpg'
+    image: 'images/sweep.png'
 },
 
 {
     id: 'shark',
     name: 'shark',
-    image: '../images/shark.jpg'
+    image: 'images/shark.jpg'
 },
 
 {
     id: 'scissors',
     name: 'scissors',
-    image: '../images/scissors.jpg'
+    image: 'images/scissors.jpg'
 },
 
 {
     id: 'pet-sweep',
     name: 'sweep',
-    image: '../images/pet-sweep.jpg'
+    image: 'images/pet-sweep.jpg'
 },
 
 {
     id: 'pen',
     name: 'pen',
-    image: '../images/pet-sweep.jpg'
+    image: 'images/pet-sweep.jpg'
 },
 
 {
     id: 'dragon',
     name: 'dragon',
-    image: '../images/dragon.jpg'
+    image: 'images/dragon.jpg'
 },
 
 {
     id: 'dog-duck',
     name: 'dog-duck',
-    image: '../images/dog-duck.jpg'
+    image: 'images/dog-duck.jpg'
 },
 
 {
     id: 'chair',
     name: 'chair',
-    image: '../images/chair.jpg'
+    image: 'images/chair.jpg'
 },
 
 {
     id: 'bubblegum',
     name: 'bubblegum',
-    image: '../images/bubblegum.jpg'
+    image: 'images/bubblegum.jpg'
 },
 
 {
     id: 'breakfast',
     name: 'breakfast',
-    image: '../images/breakfast.jpg'
+    image: 'images/breakfast.jpg'
 },
 
 {
     id: 'boots',
     name: 'boots',
-    image: '../images/boots.jpg'
+    image: 'images/boots.jpg'
 },
 
 {
     id: 'bathroom',
     name: 'bathroom',
-    image: '..images/bathroom.jpg'
+    image: '.images/bathroom.jpg'
 },
 
 {
     id: 'banana',
     name: 'banana',
-    image: '../images/banana.jpg'
+    image: 'images/banana.jpg'
 },
 
 {
     id: 'bag',
     name: 'bag',
-    image: '../images/bag.jpg'
+    image: 'images/bag.jpg'
 },
 
 {
     id: 'cthulhu',
     name: 'cthulhu',
-    image: '../images/cthulhu.jpg'
+    image: 'images/cthulhu.jpg'
 },
 ];
 

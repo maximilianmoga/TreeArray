@@ -14,21 +14,22 @@
 <body>
     <h2>Welcome to Bus Mall Game</h2>
     <div>
-        <div id="bubblegum">
-            <input type="radio" name="bubblegum" value="bubblegum" />
-                <label for="bubblegum"><img src="./images/bubblegum.jpg" height="200" width="200"></label>
+        <span id="bubblegum"></span>
+            <input id="bubblegum" type="radio" name="products" />
+                <label for="bubblegum"><img src="" height="200" width="200" id="product1"></label>
         </div> 
-        <div id="bag">
-            <input type="radio" name="bag" value="bag" />
-            <label for="bag"><img src="./images/bag.jpg" height="200" width="200"></label>
-        </div>
-        <div id="banana">
-            <input type="radio" name="banana" value="banana" />
-            <label for="banana"><img src="./images/banana.jpg" height="200" width="200"></label>
-    </div>
-    
+        <span id="bag"></span>
+            <input id="bag" type="radio" name="products" />
+            <label for="bag"><img src="" height="200" width="200" id="product2"></label>
+        <div>
+        <span id="banana"></span>
+            <input type="radio" name="products" value="banana" />
+            <label for="banana"><img src="" height="200" width="200" id="product3"></label>
+       </div>
+
+    <button id="button">reset</button>
     <button>reset</button>
 
-<script src="app.js" type="module"></script>
+<script src="bussMall.js" type="module"></script>
 </body>
 </html>
