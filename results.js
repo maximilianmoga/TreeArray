@@ -1,11 +1,11 @@
-const results = JSON.parse(localStorage.getItem('results'));
+const results = JSON.parse(localStorage.getItem('__votes'));
 
 
-const result = [];
+const votes = [];
 const labels = [];
 
-results.clicks(item => {
-   results.push(item.clicks);
+results.forEach(item => {
+    votes.push(item.votes);
     labels.push(item.id);
 });
 
@@ -17,16 +17,16 @@ new Chart(ctx, {
     data: {
         labels: labels,
         datasets: [{
-            label: '# ofresults',
-            data:results,
-            backgroundColor: ['red', 'blue', 'brown', 'orange', 'purple', 'white']
+            label: '# of Votes',
+            data: votes,
+            backgroundColor: ['red', 'blue', 'brown', 'orange', 'purple', 'yellow']
         }]
     },
-      options: {
-      scales: {
+options: {
+    scales: {
       yAxes: [{
-        ticks: {
-        beginAtZero: true
+         ticks: {
+             beginAtZero: true
                 }
             }]
         }

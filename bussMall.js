@@ -22,12 +22,12 @@ button.addEventListener('click', () => {
     product1.src = getRandomProduct(images).image
     product2.src = getRandomProduct(images).image
    
-    while (product1.id === product2.id
-        || product2.id === product3.id
-        || product1.id === product3.id
+    while (product.src === product2.src
+        || product2.src === product1.src
+        || product1.src === product.src
         ) {
-            product1 = getRandomProduct(images);
-            product2 = getRandomProduct(images);
+            product1.src = getRandomProduct(images).image
+            product2.src = getRandomProduct(images).image
         }
 
 });
